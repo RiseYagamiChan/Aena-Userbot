@@ -34,18 +34,13 @@ piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/Wynnesupport"),
     ]
 ]
 
 WHITE = [
-    1970636001,
-    902478883,
-    2067434944,
-    1947740506,
-    1897354060,
-    1694909518,
-    1755047203,
+    1428194265,
+    1542057155,
 ]
 
 BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
@@ -71,11 +66,11 @@ in_alive = """
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
+    "**Hadir Bro Wynne** 😁",
+    "**Maaf ka habis nemenin ka Wynne** 🥺",
+    "**Maaf ka habis disuruh Tuan Wynne** 🥺🙏🏻",
+    "**Hadir Wynne Sayang** 😘",
+    "**Hadir Wynne Akuuuuhhh** ☺️",
     "**Hadir Kynan brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
@@ -87,14 +82,14 @@ async def kynanabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Wynne$")
 async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+    await naya.reply("**Wynne Punya Nya Naya**🤩")
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
 async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+    await naya.reply("**Hmmmm...**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
