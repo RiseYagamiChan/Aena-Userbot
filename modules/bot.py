@@ -30,7 +30,7 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+piic = "https://graph.org/file/9d23de7abf1b29d19dd5c.jpg"
 
 buttons = [
     [
@@ -47,7 +47,7 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ᴡʏɴɴᴇ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
   ◈ Ayra - {}
@@ -55,13 +55,13 @@ alive_txt = """
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> Wynne-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
 <b>   ping_dc :</b> <code>{} ms</code>
 <b>   version :</b> <code>{}</code>
-<b>   nayalibs :</b> <code>{}</code>
+<b>   wynnelibs :</b> <code>{}</code>
 <b>   uptime :</b> <code>{}</code>"""
 
 absen = [
@@ -71,7 +71,7 @@ absen = [
     "**Maaf ka habis disuruh Tuan Wynne** 🥺🙏🏻",
     "**Hadir Wynne Sayang** 😘",
     "**Hadir Wynne Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir Wynne brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
@@ -84,7 +84,7 @@ async def kynanabsen(ganteng):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Wynne$")
 async def naya(naya):
-    await naya.reply("**Wynne Punya Nya Naya**🤩")
+    await naya.reply("**Wynne Punya Kuuu**🤩")
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
