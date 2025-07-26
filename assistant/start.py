@@ -36,7 +36,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**By Kynan Join @WynneSupport**
+**By Wynne Join @WynneSupport**
 """
 
 _settings = [
